@@ -25,7 +25,7 @@ function handleMove(index) {
             const [a, b, c] = combo;
             if (gameBoard[a] && gameBoard[a] === gameBoard[b] && gameBoard[a] === gameBoard[c]) {
                 gameActive = false;
-                resultText.textContent = `Player ${currentPlayer} won!`;
+                resultText.textContent = `Player ${currentPlayer} wins!`;
                 resetButton.disabled = false;
                 return; // Exit the function early when a win is detected
             }
