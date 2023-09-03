@@ -1,94 +1,110 @@
-h1{
+h1 {
   color: orangered;
   margin-bottom: -5px;
 }
-p{
+p {
   margin-bottom: -10px;
 }
-.ui{
-  display:flex;
+.ui {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
-.row{
-  display:flex;
+.row {
+  display: flex;
 }
-.cell{
-  border:none;
-  width:80px;
-  height:80px;
-  display:flex;
-  align-items:center;
+.cell {
+  border: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size:24px;
-  text-align:center;
-  cursor:pointer;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}  
+.cell:active {
+  outline: none;
 }
-.cell:active{
-  outline:none;
-}
+
 #b1{
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
 }
-#b2{
+
+#b2 {
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
   border-left: 1px solid gray;
 }
-#b3{
+
+#b3 {
   border-bottom: 1px solid gray;
   border-left: 1px solid gray;
 }
-#b4{
+
+#b4 {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
 }
-#b5{
+    
+#b5 {
   border: 1px solid gray;
 }
-#b6{
+
+#b6 {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   border-left: 1px solid gray;
 }
-#b7{
+
+#b7 {
   border-top: 1px solid gray;
   border-right: 1px solid gray;
 }
-#b8{
+
+#b8 {
   border-top: 1px solid gray;
   border-right: 1px solid gray;
   border-left: 1px solid gray;
 }
-#b9{
+
+#b9 {
   border-top: 1px solid gray;
   border-left: 1px solid gray;
 }
 
-#but{
+#but {
   box-sizing: border-box;
-  width:95px;
-  height:40px;
-  border:1px solid dodgerblue;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
   margin-left: auto;
-  border-radius:8px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 8px;
+  font-family: Verdana,
+      Geneva, Tahoma, sans-serif;
+
   background-color: whitesmoke;
-  color:dodgerblue;
-  font-size:20px;
-  cursor:pointer;
+  color: dodgerblue;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-#print{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color:dodgerblue;
-  font-size:20px;
+#print {
+  font-family: Verdana,
+      Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+  font-size: 20px;
 }
 
-#main{
-  text-align:center;
+#main {
+  text-align: center;
 }
 
-#
+#ins {
+  font-family: Verdana,Geneva, 
+                  Tahoma, sans-serif;
+  color: dodgerblue;
+}
